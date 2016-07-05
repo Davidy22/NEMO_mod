@@ -1,0 +1,22 @@
+1- Open MATLAB and on the left, find RUN_ANALYSIS folder. It should contain 
+several .m files.
+
+2- In the command line, type RUN_ANALYSIS(); and hit enter.
+
+3- Select the video data that you would like to analyze. 
+
+4- Wait while the program decomposes the video into individual frames.
+
+5- Once the process is complete, the program will inquire about your data. Answer accordingly.
+
+6- A window will open to prompt you to 
+determine a threshold value used by the program to binarize the frames. Using
+the Data Cursor tool, click on the image and use your arrow keys to find the value
+of RGB at the edge of the worm. Pick the value that occurs right before a sharp 
+increase in RGB values and type it into the command line.
+
+7- The program will now prompt you to pick one of the images using variations of
+the threshold you typed in. Pick the best image.
+
+8- Wait for the program to binarize your data. Once complete, the binarized
+frames should be found under the folder C:\FOR_ANALYSIS\binarized_frames.
